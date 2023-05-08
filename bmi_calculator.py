@@ -37,7 +37,7 @@ class calculator:
     
     def calculate_bmi(self):
         
-        self.input_height = self.input_height / 100 #converted m to cm
+        self.input_height = self.input_height / 100 #for converting cm to m
         
         self.bmi = self.input_weight / (self.input_height ** 2) #cm to cm ^ 2 
         
